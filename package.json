@@ -1,0 +1,25 @@
+{
+  "name": "@tepez/lerna-nohoist-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "npx lerna bootstrap --hoist",
+    "clean": "npx lerna clean --yes && rm -rf node_modules package-lock.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomyam1/lerna-nohoist-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomyam1/lerna-nohoist-issue/issues"
+  },
+  "homepage": "https://github.com/tomyam1/lerna-nohoist-issue#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "@sindresorhus/tsconfig": "^0.7.0"
+  }
+}
